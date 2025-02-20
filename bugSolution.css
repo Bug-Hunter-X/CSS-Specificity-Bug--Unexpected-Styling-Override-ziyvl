@@ -1,0 +1,14 @@
+/* bugSolution.css */
+
+/* Use more specific selectors to avoid conflicts */
+.specific-class {
+  color: blue;
+}
+
+/* Or use !important (use sparingly) if specificity change is not desired */
+.another-class {
+  color: green !important;
+}
+
+/*  Organize CSS: Ensure that more specific rules come later in the file */
+/* Or use preprocessor to organize with nesting */ 
